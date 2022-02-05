@@ -14,8 +14,7 @@ h1 {
 ul {
 	list-style-position: inside;
 	margin:              initial;
-	margin-top:          2em;
-	padding-left:        1em;
+	padding:             2em 1em;
 }
 
 li {
@@ -27,12 +26,11 @@ button {
 	background:  initial;
 	border:      initial;
 	font-weight: 500;
-	margin-left: 1em;
-	margin-top:  2em;
 	padding:     initial;
 	cursor:      pointer;
+	margin-left: 1em;
 }
 
 button span {
-	font-size: 150%;
+	font-size: 16pt;
 }
