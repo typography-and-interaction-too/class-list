@@ -32,5 +32,6 @@ button {
 }
 
 button span {
+	color:   dodgerblue;
 	font-size: 16pt;
 }
