@@ -1,4 +1,4 @@
-html {
+html, button {
 	font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, Helvetica, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
@@ -12,11 +12,27 @@ h1 {
 }
 
 ul {
-	margin:     initial;
-	margin-top: 2em;
+	list-style-position: inside;
+	margin:              initial;
+	margin-top:          2em;
+	padding-left:        1em;
 }
 
 li {
 	font-weight: 600;
 	margin-top:  0.25em;
+}
+
+button {
+	background:  initial;
+	border:      initial;
+	font-weight: 500;
+	margin-left: 1em;
+	margin-top:  2em;
+	padding:     initial;
+	cursor:      pointer;
+}
+
+button span {
+	font-size: 150%;
 }

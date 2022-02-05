@@ -1,13 +1,17 @@
-const shuffleClass = () => {
-	const classList = document.querySelector('ul')
+const shuffleStudents = () => {
+	const students = document.querySelector('ul')
 
-	for (index = 0; index < classList.children.length; index += 1) {
-		classList.appendChild(classList.children[Math.random() * index | 0])
+	for (index = 0; index < students.children.length; index++) {
+		students.appendChild(students.children[Math.random() * index | 0])
 	}
 }
 
 
 
 document.addEventListener('DOMContentLoaded', () => {
-	shuffleClass()
+	shuffleStudents()
+
+	const shuffle = document.querySelector('button')
+
+	shuffle.onclick = () => shuffleStudents()
 })
