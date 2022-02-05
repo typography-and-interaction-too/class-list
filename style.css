@@ -1,0 +1,22 @@
+html {
+	font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, Helvetica, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+body {
+	margin:  initial;
+	padding: 2em 1em;
+}
+
+h1 {
+	margin: initial;
+}
+
+ul {
+	margin:     initial;
+	margin-top: 2em;
+}
+
+li {
+	font-weight: 600;
+	margin-top:  0.25em;
+}
