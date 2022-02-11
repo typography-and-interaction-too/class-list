@@ -14,10 +14,9 @@ h1 {
 }
 
 ul {
-	list-style-position: inside;
-	margin:              initial;
-	padding:             2em 1em;
-	list-style:          none;
+	margin:     initial;
+	padding:    2em 1em;
+	list-style: none;
 }
 
 li {
